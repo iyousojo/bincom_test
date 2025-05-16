@@ -3,10 +3,10 @@
 require_once 'config.php';
 
 class Database {
-    private $host = "localhost";
-    private $user = "root";
-    private $password = "";
-    private $dbname = "bincom_test"; // Correct database name
+    private $host = "sql305.infinityfree.com";
+    private $user = "if0_38990642";
+    private $password = "OtD9GjxZ0K3ng";
+    private $dbname = "if0_38990642_bincomphptest"; // Correct database name
     public $conn;
 
     public function __construct() {
